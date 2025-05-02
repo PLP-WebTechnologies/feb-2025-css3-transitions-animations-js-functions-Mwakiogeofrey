@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Experience</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">InteractiveWeb</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#animations">Animations</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Interactive Web</h1>
+      <p>Experience the power of CSS3 animations and JavaScript</p>
+      <button class="cta-button" id="animateButton">Get Started</button>
+    </div>
+    <div class="color-picker-container">
+      <label for="colorPicker">Choose Theme Color:</label>
+      <input type="color" id="colorPicker" value="#ff0000">
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Our Features</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <i class="fas fa-magic"></i>
+        <h3>CSS Animations</h3>
+        <p>Smooth and engaging animations</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-code"></i>
+        <h3>JavaScript Magic</h3>
+        <p>Interactive elements and effects</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-save"></i>
+        <h3>Local Storage</h3>
+        <p>Save your preferences</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="animations" class="animations">
+    <h2>Animation Showcase</h2>
+    <div class="animation-container">
+      <div class="animation-box" id="box1">Hover Me!</div>
+      <div class="animation-box" id="box2">Click Me!</div>
+      <div class="animation-box" id="box3">Drag Me!</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea id="message" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Interactive Web. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
